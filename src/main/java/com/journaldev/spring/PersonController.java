@@ -37,6 +37,7 @@ public class PersonController {
 	}
 	
 	//For add and update person both
+	//Test
 	@RequestMapping(value= "/person/add", method = RequestMethod.POST)
 	public String addPerson(@ModelAttribute("person") Person p){
 		
